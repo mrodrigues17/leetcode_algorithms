@@ -8,7 +8,6 @@ def palindrome_number(x):
         lst.append(x % 10)
         x = x // 10
     # Determine how many iterations to loop through list from both sides
-    # TODO: This can be more efficient
     iter_num = len(lst) // 2
     for i in range(iter_num):
         if lst[i] != lst[-i -1]:
