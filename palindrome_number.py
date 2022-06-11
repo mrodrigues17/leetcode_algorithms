@@ -1,6 +1,8 @@
 # Using modulo to solve
 def palindrome_number(x):
     # store the digits in a list
+    if x <= -10:
+        return False # return false for negative numbers s
     lst = []
     while x > 0:
         lst.append(x % 10)
@@ -18,4 +20,4 @@ def palindrome_number(x):
     
 
 
-print(palindrome_number(1234543211))
+print(palindrome_number(-123454321))
