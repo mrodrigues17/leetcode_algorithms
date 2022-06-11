@@ -10,10 +10,8 @@ def palindrome_number(x):
     # Determine how many iterations to loop through list from both sides
     # TODO: This can be more efficient
     iter_num = len(lst) // 2
-    palindrome_counter = 0
     for i in range(iter_num):
         if lst[i] != lst[-i -1]:
-            palindrome_counter +=1
             return False
     return True
     
