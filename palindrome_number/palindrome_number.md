@@ -12,4 +12,8 @@ Approach:
 - Using the digits stored in a list, compare the first and last digits and traverse through the list. If they are all matches, then the number is a palindrome. If there is at least one mismatch, the number is not a palindrome
 
 
+Performance on Leetcode:
+Runtime: 83 ms, faster than 48.23% of Python online submissions for Palindrome Number.
+Memory Usage: 13.3 MB, less than 63.86% of Python online submissions for Palindrome Number.
+
 
