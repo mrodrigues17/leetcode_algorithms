@@ -1,2 +1,2 @@
-# leetcode_algorithms
+# Leetcode Algorithms
 Repo for keeping my solutions to Leetcode problems
